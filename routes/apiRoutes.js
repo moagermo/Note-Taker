@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const router = require('express').Router();
 const store = require('../db/store');
 
